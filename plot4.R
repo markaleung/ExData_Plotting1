@@ -16,6 +16,6 @@ with(data, {
 	legend(x = "topright", col = c("Black", "Red", "Blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 2)
 	
 	plot(Time, Voltage, type = "l", xlab = "date/time", ylab = "Voltage")
-	plot(Time, Voltage, type = "l", xlab = "date/time", ylab = "Global_reactive_power")	
+	plot(Time, Global_reactive_power, type = "l", xlab = "date/time", ylab = "Global_reactive_power")	
 })
 dev.off()
